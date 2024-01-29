@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/main.css" />
+    <link rel="stylesheet" href="src/css/queries.css" />
+
+    <script type="module" defer src="src/js/controller.js"></script>
+
+    <title>Weather App</title>
+    <link rel="icon" type="image/x-icon" href="src/imgs/favicon.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="aside">
+        <div class="current-date">
+          <!-- <p class="spinner spinner-light">Loading...</p> -->
+        </div>
+
+        <form class="search-form">
+          <input class="search" type="text" placeholder="Search any place..." />
+          <button>
+            <svg>
+              <use href="src/imgs/icons.svg#icon-search" />
+            </svg>
+          </button>
+        </form>
+
+        <div class="weather-about">
+          <p class="location">Location unknown 🤷‍♂️</p>
+        </div>
+
+        <!-- <div class="temps">
+          <h2 class="heading-h2">5 °C</h2>
+          <p class="min-max-temp">min <span>4°</span class='max-temp'> max <span class="min-temp">6°</span></p>
+        </div>
+
+        <div class="humidity-and-wind">
+          <p class="humidity-and-wind--wrapper humidity">
+            <svg>
+              <use href="src/imgs/icons.svg#icon-humidity"/>
+            </svg>
+            <span class="humidity-percent">64 %</span>
+          </p>
+          <p class="humidity-and-wind--wrapper wind">
+            <svg>
+              <use href="src/imgs/icons.svg#icon-wind"/>
+            </svg>
+            <span class="wind-speed">4.91 km/h</span>
+          </p>
+        </div> -->
+        <!-- <p class="location">
+          <svg width="30" height="30">
+            <use href="src/imgs/icons.svg#icon-location" />
+          </svg>
+          <span class="location-city-country">Belgrade, RS</span>
+        </p>
+        <p class="copyright">&copy; Andrija | All rights reserved</p> -->
+        <p class="copyright">&copy; Andrija | All rights reserved</p>
+      </aside>
+      <main class="main-content">
+        <div class="container-main">
+          <article class="main-weather-description">
+            <!-- <div class="temps-humidity-wind">
+              <div class="temperatures-big">
+                <h1 class="heading-h1">5°</h1>
+                <p class="feels-like-temp">
+                  feels like <span class="feels-like-value">0.62°</span>
+                </p>
+              </div>
+
+              <div class="humidity-and-wind">
+                <p class="humidity-and-wind--wrapper humidity">
+                  <svg>
+                    <use href="src/imgs/icons.svg#icon-humidity" />
+                  </svg>
+                  <span class="humidity-percent">64 %</span>
+                </p>
+                <p class="humidity-and-wind--wrapper wind">
+                  <svg>
+                    <use href="src/imgs/icons.svg#icon-wind" />
+                  </svg>
+                  <span class="wind-speed">4.91 km/h</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="weather-desc-and-minmax">
+              <div class="weather-desc">
+                <p class="weather-desc-type">Clouds</p>
+                <p class="weather-desc-type-extended">Broken Clouds</p>
+              </div>
+
+              <div class="min-max">
+                <div class="minmax-temp">
+                  Min: <span class="min-temp">4.49°</span>
+                </div>
+                <span class="divider">&VerticalLine;</span>
+                <div class="minmax-temp">
+                  Max <span class="max-temp">4.7°</span>
+                </div>
+              </div>
+            </div> -->
+          </article>
+
+          <article class="forecast-days-weather">
+            <!-- <figure class="single-day-weather">
+              <p class="single-day-weather--info">Today</p>
+              <h2 class="heading-h2">5 °C</h2>
+              <p class="single-day-weather--info">Clouds</p>
+            </figure>
+            <figure class="single-day-weather">
+              <p class="single-day-weather--info">Today</p>
+              <h2 class="heading-h2">5 °C</h2>
+              <p class="single-day-weather--info">Clouds</p>
+            </figure>
+            <figure class="single-day-weather">
+              <p class="single-day-weather--info">Today</p>
+              <h2 class="heading-h2">5 °C</h2>
+              <p class="single-day-weather--info">Clouds</p>
+            </figure>
+            <figure class="single-day-weather">
+              <p class="single-day-weather--info">Today</p>
+              <h2 class="heading-h2">5 °C</h2>
+              <p class="single-day-weather--info">Clouds</p>
+            </figure>
+            <figure class="single-day-weather">
+              <p class="single-day-weather--info">Today</p>
+              <h2 class="heading-h2">5 °C</h2>
+              <p class="single-day-weather--info">Clouds</p>
+            </figure> -->
+          </article>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
